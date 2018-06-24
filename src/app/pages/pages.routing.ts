@@ -14,6 +14,7 @@ export const childRoutes: Routes = [
             { path: '', redirectTo: 'index', pathMatch: 'full' },
             { path: 'index', loadChildren: './index/index.module#IndexModule' },
             { path: 'editor', loadChildren: './editor/editor.module#EditorModule' },
+            { path: 'project', loadChildren: './project/project.module#ProjectModule' },
             { path: 'icon', loadChildren: './icon/icon.module#IconModule' },
             { path: 'profile', loadChildren: './profile/profile.module#ProfileModule' },
             { path: 'form', loadChildren: './form/form.module#FormModule' },
