@@ -5,12 +5,7 @@ export let MENU_ITEM = [
         icon: 'dashboard'
     },
     {
-        path: 'icon',
-        title: '검색',
-        icon: 'diamond'
-    },
-    {
-        path: 'editor',
+        path: 'portfolio' ,
         title: '포트폴리오',
         icon: 'pencil'
     },
